@@ -117,8 +117,7 @@ class Crud {
     }
 }
 
-$crud = new Crud;
-print_r($crud->update_data());
+
 
 
 ?>
