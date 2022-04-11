@@ -27,3 +27,34 @@ $insert = $crud->insert_data($tablename, [
 
 
 ```
+
+# fetch data
+```php
+//create a variable like this
+$crud->fetch_data("SELECT * FROM tablename");
+
+//other functions you can use
+count();
+json_encode(); // and many more
+
+```
+
+# update data
+```php
+//do like this
+$update = $crud->update_data($tablename, [
+  "name" => $name, //fields to update
+  "age" => $age
+], [
+  "id" => $id // conditions criteria
+])
+
+# the keys table should ne the same as the names you gave the columns in your table
+
+```
+# delete data
+```php
+// do this way
+$delete = $crud->delete_data("DELETE FROM tablename WHERE id = '1'");
+```
+this project is for beginers but experts can also check on it. it's 100% php
