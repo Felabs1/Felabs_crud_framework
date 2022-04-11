@@ -8,10 +8,22 @@ include("crud.php");
 // or
 require("crud.php");
 ```
-based on your coding practices
+based on your coding practices. make sure the file location is linked well.
 
 
 # Database Connection
 ```php
 $crud = new Crud($server, $username, $password, $database)
+```
+
+# insert Data
+```php
+//create a variable like this 
+$insert = $crud->insert_data($tablename, [
+  "name" => $name,
+  "age" => $age
+]);
+# in the associative array, the key values should be the same as the table columns in your mysql database 
+
+
 ```
