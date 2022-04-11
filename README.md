@@ -1,4 +1,4 @@
-# Felabs_crud_framework
+# Felabs crud framework
 a Create Read Update Delete Framework Created to be used for easier create read update delete
 
 # basic usage
