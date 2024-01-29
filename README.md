@@ -7,6 +7,8 @@ download the code and import it in your project;
 include("crud.php");
 // or
 require("crud.php");
+// or
+include_once("crud.php");
 ```
 based on your coding practices. make sure the file location is linked well.
 
